@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Corridas de Rua</title>
+</head>
+<body>
+
+<h1>Sobre corridas</h1>
+<p>estamos com duas imagens relacionadas a corridas de rua.</p>
+
+</body>
+</html>
+
+<img src="fogo1.jpg" alt="Girl in a jacket" width="40%">
+<img src="carro_preto2.jpg" alt="Girl in a jacket" width="40%">
+
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HyperCars</title>
+
+    <style>
+       .container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 40px 20px;
+    }
+    .introducao {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .introducao h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+    .introducao p {
+        color: #aaa;
+    }
+    .hypercarros {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+    /*QUADRO DE CADA CARRO*/
+    .CARD {
+        background: #1b1b1b;
+        border: 1PX solid #444;
+        border-radius: 10PX;
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    /*ESPAÇO DA FOTO*/
+    .card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        display: block;
+    }
+    /*nome do carro*/
+    .card h3 {
+        font-size: ;
+    }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HyperCars</h1>
+        <p>Velocidade, potência e tecnologia.</p>
+    </header>
+
+
+ 
+
+    <footer>
+        <p>© 2026 HyperCars</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+O Mundo dos Hypercarros
+Conheça algumas das máquinas mais impressionantes já criadas pela indústria automotiva.
+
+Bugatti Chiron Super Sport: 1.600 cv e apenas 9 exemplares feitos
+Bugatti Chiron Super Sport
+Uma máquina criada para alcançar velocidades impressionantes, combinando aerodinâmica, potência e tecnologia de ponta.
+
+Koenigsegg Jesko
+Koenigsegg Jesko
+Design agressivo, motor de alta performance e tecnologias desenvolvidas para oferecer uma experiência extraordinária.
+
+Aston Martin Valkyrie
+Aston Martin Valkurie
+Uma combinação de engenharia avançada, materiais leves e desempenho extremo.
+
+© 2026 HyperCars
