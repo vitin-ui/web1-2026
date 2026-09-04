@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+p.groove {border-style: groove;}
+div {
+  border: 1px solid black;
+  margin-top: 00px;
+  margin-bottom: 0px;
+  margin-right: 500px;
+  margin-left: 50px;
+  background-color: ice;
+}
+body {
+  background-color:gray;
+}
+</style>
+</head>
+<body>
+<h1><p class="groove" >I am normal</p></h1>
+<br>
+<div><p>teste, das divs sobre bordas etc</p>
+<p style="color:#ff;">I am red</p>
+<p style="color: purple;">I am blue</p>
+<p style="font-size:25px;">I am big</p></div>
+
+</body>
+</html>
+
