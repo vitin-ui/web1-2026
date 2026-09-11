@@ -1,0 +1,77 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+    background-color: black;
+    margin: 30px;
+    }
+    .teste{
+    background:rgb(255, 255, 255);
+    }
+    .teste2{
+    background:yellow;
+    }
+
+            /* Classes começam com PONTO (.) */
+            /* Aplica o mesmo estilo para todos os elementos que usam essa classe */
+            .cartao-noticia {
+                background-color: #f0f0f0;
+                padding: 15px;
+                margin-bottom: 10px;
+                border-radius: 5px;
+            }
+
+            /* IDs começam com CERQUILHA (#) */
+            /* Aplica o estilo APENAS para aquele elemento específico e único */
+            #noticia-urgente {
+                border: 2px solid red;
+                background-color: #ffdddd;
+            }
+
+            .fim {
+                border: 2px solid rgb(218, 208, 208);
+                background-color: #e0d4d4;
+            }
+  </style>
+  <title>cai cai</title>
+</head>
+
+<body>
+  <h1 class="teste">
+    Write, edit and run HTML, CSS and JavaScript code online.
+  </h1>
+  <h1 class="teste2">ETEC - MOOCA</h2>
+    <div class="cartao-noticia">
+        <h2>Notícia 1</h2>
+        <p>Este é um cartão comum de notícias.</p>
+    </div>
+
+    <!-- Usando a classe para o visual padrão E o id para o destaque único -->
+    <div class="cartao-noticia" id="noticia-urgente">
+        <h2>URGENTE!</h2>
+        <p>Esta notícia é única e precisa de um destaque especial.</p>
+    </div>
+
+    <!-- Outro cartão comum com a mesma classe -->
+    <div class="cartao-noticia">
+        <h2>Notícia 3</h2>
+        <p>Outro cartão que puxa o mesmo estilo do primeiro.</p>
+    </div>
+
+    <div class="fim">
+   <p style="color:rgb(26, 29, 29)">
+    Our HTML editor updates the webview automatically in real-time as you write code.
+  </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
