@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#para1 {
+  text-align: center;
+  color: red;
+}
+/* uao de id */
+#teste1 {
+   text-align: right;
+   color: yellow;
+}
+#teste2 {
+   text-align: left;
+   color: green;
+}
+
+/*usando class*/
+.center {
+ color:red;
+ background-color:yellow; 
+ text-align:center}
+
+.center2 {
+ color:white;
+ background-color:green; 
+ text-align:center}
+
+</style>
+</head>
+<body>
+
+<p id="para1">Hello World!</p>
+<p id="teste1">This paragraph is not affected by the style.</p>
+<p id="teste2">Durante o uso do css seguir o padrão na escrita é fundamental</p>
+
+<p class= "center2"> Teste de classe, HTML com CSS</p>
+<h2>usando HTML</h2>
+<h2>Usando CSS</h2>
+<p class= "center"> Teste de classe, HTML com CSS</p>
+
+</body>
+</html>
+
+
