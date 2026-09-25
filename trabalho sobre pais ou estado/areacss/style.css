@@ -12,19 +12,19 @@
         }
 
         /* FUNDO PRINCIPAL */
-        .hero {
-    min-height: 100vh;
-
-    background:
-        linear-gradient(
-            rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.85)
-        ),
-        url("imagens/fundo-japao.jpg");
-
-          background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+        .omega {
+            min-height: 100vh;
+        
+            background:
+                linear-gradient(
+                    rgba(0, 0, 0, 0.45),
+                    rgba(0, 0, 0, 0.85)
+                ),
+                url("imagens/fundo-japao.jpg");
+        
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
         }
 
         /* MENU */
@@ -101,7 +101,7 @@
             text-decoration: none;
             border-radius: 4px;
 
-            transition: 0.3s;
+            transition: 1.0s;
         }
 
         .botao:hover {
@@ -211,23 +211,7 @@
 
             text-align: center;
 
-            background: #070707;
+            background: #ff4242;
             color: #777;
-        }
-
-        /* CELULAR */
-        @media (max-width: 800px) {
-
-            .cards {
-                grid-template-columns: 1fr;
-            }
-
-            .conteudo h1 {
-                font-size: 45px;
-            }
-
-            nav {
-                display: none;
-            }
         }
 
