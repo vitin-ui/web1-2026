@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #000000; 
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sistema {
+    width: 100%;
+    max-width: 1120px;
+    min-height: 545px;
+    background: #363636;
+    border: 1px solid #aaaaaa;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cabeçalho */
+
+header {
+    height: 40px;
+    background: #26394c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Painel */
+
+.painel {
+    flex: 1;
+    padding: 80px 95px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 12px;
+    align-content: center;
+}
+
+/* Cards */
+
+.card {
+    min-height: 166px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    filter: brightness(1.1);
+}
+
+.card h2 {
+    font-size: 25px;
+    font-weight: normal;
+    margin: 8px 0 12px;
+}
+
+.card p {
+    font-size: 10px;
+    line-height: 1.5;
+    max-width: 180px;
+}
+
+.icone {
+    font-size: 15px;
+}
+
+/* Cores */
+
+.manutencao {
+    background: #ed4b40;
+}
+
+.frota {
+    background: #3498db;
+}
+
+.relatorios {
+    background: #20ad5a;
+}
+
+.usuarios {
+    background: #f5a20b;
+}
+
+.abastecimento {
+    background: #9754b5;
+}
+
+.financas {
+    background: #ee7d13;
+    grid-column: 2;
+}
+
+.configuracoes {
+    background: #159e8e;
+    grid-column: 3;
+}
+
+.ajuda {
+    background: #29415a;
+    grid-column: 4;
+}
+
+/* Rodapé */
+
+footer {
+    height: 32px;
+    background: #26394c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 9px;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px) {
+
+    .painel {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 40px;
+    }
+
+    .financas,
+    .configuracoes,
+    .ajuda {
+        grid-column: auto;
+    }
+}
+
+@media (max-width: 600px) {
+
+    body {
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .sistema {
+        width: 100%;
+    }
+
+    .painel {
+        grid-template-columns: 1fr;
+        padding: 25px;
+    }
+
+    .card {
+        min-height: 140px;
+    }
+
+    .card h2 {
+        font-size: 22px;
+    }
+}
